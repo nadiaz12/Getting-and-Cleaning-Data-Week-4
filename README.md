@@ -1,7 +1,7 @@
 # Getting-and-Cleaning-Data-Week-4
 
 Peer-graded Assignment: Getting and Cleaning Data Course Project
-This repository is a Nelson Diaz submission for Getting and Cleaning Data course project. It has the instructions on how to run analysis on Human Activity recognition dataset.
+This repository is a Nelson Diaz submission for Getting and Cleaning Data course project in week 4. It has the instructions on how to run analysis on Human Activity recognition dataset.
 
 Dataset
 Human Activity Recognition Using Smartphones
