@@ -26,8 +26,7 @@ if(!exists("featureColumns")){
 
 codebook("## Actions performed on data:")
 
-codebook("* downloading zip file", fileurl)
-
+codebook("* downloading zip file:", fileurl)
 
 
 

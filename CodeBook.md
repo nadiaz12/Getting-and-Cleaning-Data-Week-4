@@ -8,3 +8,4 @@ generated 2020-08-08 19:52:47 during sourcing of `run_analysis.R`
 * downloading zip file: (fileUrl)
 * downloading zip filehttps://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 ## Actions performed on data:
+* downloading zip file:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
