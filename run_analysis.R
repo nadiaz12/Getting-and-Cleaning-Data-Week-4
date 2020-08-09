@@ -1,7 +1,35 @@
 library(data.table)
 library(dplyr)
 
+codebook <- function(...){
+        cat(..., "\n",file=targetCodebookFilePath,append=TRUE, sep="")
+}
+
 fileurl = 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
+
+
+#codebook
+targetCodebookFilePath <- "./CodeBook.md"
+file.remove(targetCodebookFilePath)
+codebook("# Code Book")
+codebook("generated ",as.character(Sys.time())," during sourcing of `run_analysis.R`")
+codebook("")  
+if(!exists("keyColumns")){
+        keyColumns <<- c()
+}
+
+
+if(!exists("featureColumns")){
+        featureColumns <<- c()
+}
+
+codebook("## Actions performed on data:")
+
+codebook("* downloading zip file", fileurl)
+
+
+
+
 if (!file.exists('./UCI HAR Dataset.zip')){
         download.file(fileurl,'./UCI HAR Dataset.zip', mode = 'wb')
         unzip("UCI HAR Dataset.zip", exdir = getwd())
